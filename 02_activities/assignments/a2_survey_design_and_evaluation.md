@@ -40,30 +40,30 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of my survey is to identify common sources of dissatisfaction (workload, pay, support, growth in career, scheduling, culture at the workplace, and burnout). This way, the company can understand why entry and lower level employees are leaving the company at a high rate and the company can then make evidence-based changes to improve retention and employee statisfaction.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all the current entry and lower level employees at this company. The target population will also include employees in those postions who recently left (I will put a 6 month threshold). The sampling frame will be the company's employee records, which would include the current and redently departed employee records. For this situation, the sampling units and the observational units will be each individual person since each person is selected and surveyed individually. I will conduct a stratified random sampling strategy. I would divide the employees into strata based on department, employment status (current versus recently departed), and work arrangement (in person versus remote work). I will then select a random sample from each stratum. I think it is important to stratify as described above since turnover may differ actoss the departments or employment status groups. Stratification will help to ensure that smaller (but important) groups are represented.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your current employment status with the company? (A) current employee; (B) former employee
+2. Which department are/were you a part of? (A) Engineering; (B) Customer Support; (C) Sales/Marketing; (D) Operations; (E) Administration; (F) Other
+3. Overall, how satisfied are/were you with your role? (A) Very satisfied; (B) Somewhat satisfied; (C) Neutral; (D) Somewhat dissatisfied; (E) Very dissatisfied
+4. How manageable was your workload? (A) Very manageable; (B) Somewhat manageable; (C) Neutral; (D) Somewhat unmanageable; (E) Very unmanageable
+5. How satisfied are/were you with opportunities for career growth or promotion? (A) Very satisfied; (B) Somewhat satisfied; (C) Neutral; (D) Somewhat dissatisfied; (E) Very dissatisfied
+6. How supported do/did you feel by your manager? (A) Very supported; (B) Somewhat supported; (C) Neutral; (D) Somewhat unsupported; (E) Very unsupported
+7. How fair do/did you feel your pay and benefits compare/compared with your responsibilities? (A) Very fair; (B) Somewhat fair; (C) Neutral; (D) Somewhat unfair; (E) Very unfair
+8. Which facotrs most affected your decision to stay/leave? Select up to three options. (A) Pay or benefits; (B) Workload; (C) Support from Management; (D) Career growth; (E) Scheduling; (F) Workplace culture; (G) Personal reasons; (H) Other
+9. How likely are you to recommend this company as a good place to work? (A) Very likely; (B) Somewhat likely; (C) Neutral; (D) Somewhat unlikely; (E) Very unlikely
+10. What could the company change to improve employee satisfaction or retention? (open ended question for detail)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +71,32 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: The survey used a stratified design employing probability sampling. Strata were based on province and census metropolitan area (CMA). This sample survey employed a two-stage sampling design. First, they select groups of telephone numbers/households, then they randomly select one eligible person within the household (see target population for eligible person). It was noted that due to potential difficulties reaching volunteers, a rejective sampling approach was chosen as part of the design of the sample where all volunteers completed a long interview while non-volunteers were subsampled into two groups: long or short interviews.
+
+2. Sample size: A field sample of about 50,000 frame units (households/telephone-number groups) was selected, among which about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada and about 24,000 completed questionaires were expected.
+
+3. Target population: All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+
+4. Sampling frame: Combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established). This was intended to better coverage of households with a telephone number.
+
+5. Survey mode(s): Data were collected directly from respondents using either an electronic questionnaire or computer-assisted telephone interviewing (CATI). Respondents could complete the survey in English or French. Proxy responses were not permitted.
+
+6. Timeline: The reference period was the 12 months before the interview date. Data collection occured from September 4, 2018 to December 28, 2018. The data were released on January 26, 2021.
+
+7. Response rate: Overall response rate was 41.9%
+
+8. Weights: Since this was a probability sample, each respondent represented not only themselves, but also other people not included in the sample. The basic weighting factor for analysis at the person level was WGHT_PER. Weights were adjusted for the rejective sampling of non-volunteers, for nonresponse, and so estimates would better represent the target population. Additionally, bootstrap weights were also created for the purpose of design-based variance estimation.
+
+9. Data processing: Involved automated and manual checks to identify errors and inconsistencies in the survey responses. Statistics Canada used family edits, consistency edits, and flow edits at both the micro (individual record) and macro (aggregate) levels. The CATI system also included built-in validation checks and identified out-of-range values during data collection.
+
+10. Cleaning, imputation, etc: Missing data were generally imputed using donor records that were selected using a score function. Recipient records with missing information were matched to donor records with similar characterisitics. If several donors are equally good, Statistics Canada randomly chooses one. Where donor imputation was not possible, mean imputation was used. Income information was obtained through tax-data linkage for respondents who did not object, and missing income information was imputed.
+
+11. Sources of error: Despite the attempt to design the methodology to limit errors and their potential effects, the survey was subject to both sampling and non-sampling error. Bootstrap weights were created to estimate sampling variability. Non-sampling errors included imperfect coverage, nonresponse, response errors, and processing errors.
+
+12. Limitations, known biases, etc: A limitation (extending from what is listed above in sources of error), is due to coverage error. Households without telephones, or with telephone services that are not covered by the frame, were excluded from the survey population which could lead to biased estimates. Another limitation is the non-response bias, since the overall response rate was about 42%. Adjusted weights were employed to reduce the nonresponse bias. However, residual bias may still remain if respondents differ systematically from nonrespondents.
+
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
 ```
 
 ## Rubric
